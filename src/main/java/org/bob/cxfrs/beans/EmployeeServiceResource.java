@@ -1,4 +1,4 @@
-package com.javainuse.beans;
+package org.bob.cxfrs.beans;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -12,8 +12,7 @@ public class EmployeeServiceResource {
     @Context
     private UriInfo uriInfo;
 
-	public EmployeeServiceResource() {
-	}
+	public EmployeeServiceResource() { }
 
 	@GET
 	@Path("/employees/{name}")

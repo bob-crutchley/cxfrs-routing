@@ -9,11 +9,11 @@
        http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd">
 
 	<cxf:rsServer id="restService" address="http://localhost:9000/employeeservice"
-				  serviceClass="com.javainuse.beans.EmployeeServiceResource">
+				  serviceClass="org.bob.cxfrs.beans.EmployeeServiceResource">
 	</cxf:rsServer>
 
-	<bean id="processor" class="com.javainuse.CamelProcessor" />
-    <bean id="myRoute" class="com.javainuse.MyRoute"/>
+	<bean id="processor" class="org.bob.cxfrs.beans.EmployeeServiceProcessor" />
+    <bean id="myRoute" class="org.bob.cxfrs.beans.EmployeeServiceRouteBuilder"/>
 
 	<camelContext id="camelId" xmlns="http://camel.apache.org/schema/spring">
 		<routeBuilder ref="myRoute"/>
