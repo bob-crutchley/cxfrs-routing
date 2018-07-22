@@ -1,9 +1,9 @@
 ## Camel Routing in JBoss Fuse
-This is an example project for creating Apache Camel Routes on the JBoss Fuse platform, 
-the routes are exposed by using CXFRS
+This is an example project for creating Apache Camel Routes on the JBoss Fuse platform 
+that are exposed by using CXFRS
 
 ### Getting Started
-This getting started guide assumes that you have the foolwing installed:
+This guide assumes that you have the foolwing installed:
 - [Apache Maven](https://maven.apache.org/download.cgi)
 - [Java JRE](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
 - [Java JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
