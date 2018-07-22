@@ -3,7 +3,7 @@ This is an example project for creating Apache Camel Routes on the JBoss Fuse pl
 that are exposed by using CXFRS
 
 ### Getting Started
-This guide assumes that you have the foolwing installed:
+This guide assumes that you have the following installed:
 - [Apache Maven](https://maven.apache.org/download.cgi)
 - [Java JRE](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
 - [Java JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
