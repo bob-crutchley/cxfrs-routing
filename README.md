@@ -3,6 +3,11 @@ This is an example project for creating Apache Camel Routes on the JBoss Fuse pl
 the routes are exposed by using CXFRS
 
 ### Getting Started
+This getting started guide assumes that you have the foolwing installed:
+- [Apache Maven](https://maven.apache.org/download.cgi)
+- [Java JRE](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
+- [Java JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+
 #### Creating the OSGI bundle
 An OSGI bundle can be created by running this maven command at the root of the project:
 ```bash
