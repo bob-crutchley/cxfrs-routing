@@ -27,7 +27,7 @@ JBoss Fuse will install the bundle from your local `~/.m2` repository
 The `-s` option will start the bundle once it is installed.
 
 See [Managing OSGI Bundles](docs/managing-osgi-bundles.md) 
-for more information on managing bundles
+for updating the bundle when changes have been made
 
 #### Verify the Application is working
 ##### CXF Endpoints
