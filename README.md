@@ -21,6 +21,9 @@ osgi:install -s mvn:org.bob.cxfrs/example/0.0.1-SNAPSHOT
 JBoss Fuse will install the bundle from your local `~/.m2` repository
 The `-s` option will start the bundle once it is installed.
 
+See [Managing OSGI Bundles](docs/managing-osgi-bundles.md) 
+for more information on managing bundles
+
 #### Verify the Application is working
 ##### CXF Endpoints
 You can view the available RESTful services by navigating to here in a web browser: http://localhost:8181/cxf
