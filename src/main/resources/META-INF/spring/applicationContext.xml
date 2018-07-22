@@ -12,7 +12,6 @@
 				  serviceClass="org.bob.cxfrs.beans.EmployeeServiceResource">
 	</cxf:rsServer>
 
-	<bean id="processor" class="org.bob.cxfrs.beans.EmployeeServiceProcessor" />
     <bean id="myRoute" class="org.bob.cxfrs.beans.EmployeeServiceRouteBuilder"/>
 
 	<camelContext id="camelId" xmlns="http://camel.apache.org/schema/spring">
