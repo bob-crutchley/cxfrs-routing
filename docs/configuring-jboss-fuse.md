@@ -3,7 +3,11 @@
 1. Download and unzip the [JBoss Fuse 6.3.0 zip](https://developers.redhat.com/download-manager/file/jboss-fuse-karaf-6.3.0.redhat-187.zip) from RedHat, 
 you will need a RedHat account for this
 2. Start JBoss Fuse:
-`jboss-fuse-karaf-6.3.0.redhat-187/bin/fuse`
+- **Linux**
+1. Change to the `jboss-fuse-karaf-6.3.0.redhat-187/bin` directory
+2. Run the fuse binary: `./fuse`
+- **Windows**
+Run the `jboss-fuse-karaf-6.3.0.redhat-187/bin/fuse.bat` file
 3. Wait until you have access to the client:
 ```bash
       _ ____                  ______
