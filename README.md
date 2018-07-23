@@ -13,7 +13,7 @@ An OSGI bundle can be created by running this maven command at the root of the p
 ```bash
 mvn clean install
 ```
-The artifact will genrated and stored in the `target/` directory
+The artifact will generated and stored in the `target/` directory
 and in your `~/.m2` repository.
 #### Installing the OSGI Bundle into JBoss Fuse
 Before deploying the bundle, ensure that JBoss Fuse has been configured. 
@@ -23,7 +23,7 @@ In the **JBoss Fuse client**, install the bundle using maven:
 ```bash
 osgi:install -s mvn:org.bob.cxfrs/example/0.0.1-SNAPSHOT
 ```
-JBoss Fuse will install the bundle from your local `~/.m2` repository
+JBoss Fuse will install the bundle from your local `~/.m2` repository.
 The `-s` option will start the bundle once it is installed.
 
 See [Managing OSGI Bundles](docs/managing-osgi-bundles.md) 
