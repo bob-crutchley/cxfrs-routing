@@ -7,16 +7,16 @@ import javax.ws.rs.core.Context;
 import javax.ws.rs.core.UriInfo;
 
 @Path("/")
-public class EmployeeServiceResource {
+public class ServiceEndpoint {
 
     @Context
     private UriInfo uriInfo;
 
-	public EmployeeServiceResource() { }
+	public ServiceEndpoint() { }
 
-	@GET
-	@Path("/employees/{name}")
-	public String getCustomer(@PathParam("name") String name) {
+	@POST @Consumes("application/json")
+	@Path("/persist")
+	public String getCustomer(@Valid Person person) {
 		return null;
 	}
 }

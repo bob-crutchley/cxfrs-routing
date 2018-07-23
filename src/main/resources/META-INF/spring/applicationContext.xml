@@ -8,14 +8,14 @@
        http://cxf.apache.org/jaxrs http://cxf.apache.org/schemas/jaxrs.xsd
        http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd">
 
-	<cxf:rsServer id="restService" address="http://localhost:9000/employeeservice"
-				  serviceClass="org.bob.cxfrs.beans.EmployeeServiceResource">
+	<cxf:rsServer id="restService" address="http://0.0.0.0:9000/service"
+				  serviceClass="org.bob.cxfrs.beans.ServiceEndpoint">
 	</cxf:rsServer>
 
-    <bean id="myRoute" class="org.bob.cxfrs.beans.EmployeeServiceRouteBuilder"/>
+    <bean id="auditRoute" class="org.bob.cxfrs.beans.AuditServiceRouteBuilder"/>
 
 	<camelContext id="camelId" xmlns="http://camel.apache.org/schema/spring">
-		<routeBuilder ref="myRoute"/>
+		<routeBuilder ref="auditRoute"/>
 	</camelContext>
 
 </beans>
